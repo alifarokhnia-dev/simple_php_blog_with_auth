@@ -28,7 +28,6 @@
         unset($_SESSION['message_class']);
     ?>
     <form action="add_user.php" method="post">
-        <input type="text" name="name" placeholder="Name">
         <input type="email" name="email" placeholder="Email">
         <input type="password" name="password" placeholder="Password">
         <input type="submit" value="submit">
